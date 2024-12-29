@@ -47,7 +47,7 @@ body {
          padding: 4rem;
     }
     .column2 {
-        background-image: url("{{ url_for('static', filename='1708460433212.jpeg') }}");
+        background-image: url('/static/1708460433212.jpeg');
 
         background-size: cover;
         position: relative;
